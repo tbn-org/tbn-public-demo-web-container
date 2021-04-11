@@ -1,0 +1,23 @@
+{
+  "name": "tbn-public-demo-web-container",
+  "version": "1.0.0",
+  "description": "Simple node.js docker image used for testing. This version is public to keep access simple for testing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbn-org/tbn-public-demo-web-container.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbn-org/tbn-public-demo-web-container/issues"
+  },
+  "homepage": "https://github.com/tbn-org/tbn-public-demo-web-container#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
